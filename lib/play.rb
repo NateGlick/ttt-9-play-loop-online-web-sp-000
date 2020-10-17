@@ -39,7 +39,7 @@ end
 def play(board)
   counter = 0
   until board == 9
-  play(board)
+  play(board) == "X"
   counter += 1
  end
 end
